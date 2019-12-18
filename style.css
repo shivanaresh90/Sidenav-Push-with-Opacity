@@ -1,0 +1,82 @@
+body    {
+    font-family: 'Josefin Sans', sans-serif;
+    transition: background-color .5s;
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #241903;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-radius: 0 50px 50px 0;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+ul li {
+    list-style: none;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+h2, p {
+    text-align: center;
+    color: beige;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+span {
+    color: #05f70d;
+}
+#section {
+    text-align: center;
+    
+}
+    img {
+        border-radius: 50%;
+        -webkit-box-shadow: 2px 2px 36px 15px rgba(250,3,36,1);
+    -moz-box-shadow: 2px 2px 36px 15px rgba(250,3,36,1);
+    box-shadow: 2px 2px 36px 15px rgba(250,3,36,1);
+    }
+img:hover {
+    color: brown;
+    background: chocolate;
+    transition: .5s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
